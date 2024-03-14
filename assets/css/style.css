@@ -8,6 +8,7 @@
     --fw-5: 500;
     --fw-6: 600;
     --fw-7: 700;
+    --fw-3: 300;
 
     --primary-color: #F5EFE2;
     --black-color: #000000;
@@ -156,6 +157,10 @@
     font-weight: var(--fw-7);
 }
 
+.fe-3 {
+    font-weight: var(--fw-3);
+}
+
 .fs-14 {
     font-size: var(--fs-14);
 }
@@ -195,9 +200,17 @@
 }
 
 
-
 .gap-18 {
     gap: 18px;
+}
+
+.mt-2px {
+    margin-top: 2px;
+}
+
+.px-43 {
+    padding-left: 43px;
+    padding-right: 43px;
 }
 
 .heading {
@@ -206,6 +219,14 @@
     transform: translate(-50%, -50%);
     text-align: center;
     position: absolute;
+}
+
+.change {
+    --bs-gutter-x: 0;
+}
+
+.read {
+    text-decoration: underline;
 }
 
 .gap-48 {
@@ -218,6 +239,25 @@
 
 .mt-24 {
     margin-top: 24px;
+}
+
+.py-90 {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.mt-13 {
+    margin-top: 13px;
+}
+
+.px-26 {
+    padding-left: 26px;
+    padding-right: 26px;
+}
+
+.py-45 {
+    padding-top: 45px;
+    padding-bottom: 45px;
 }
 
 .outline {
@@ -243,8 +283,18 @@
 .nav-hover:hover {
     transform: translate(0px, -10px);
 }
-.curser{
+
+.curser {
     cursor: pointer;
+}
+
+.links:hover {
+    -webkit-text-stroke: medium;
+}
+
+.py-65 {
+    padding-top: 65px;
+    padding-bottom: 65px;
 }
 
 .pr-24 {
