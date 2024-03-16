@@ -28,7 +28,7 @@ $('.slick-slider').slick({
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
-              
+
             }
         }
         // You can unslick at a given breakpoint now by adding:
@@ -148,4 +148,26 @@ acc_part.forEach(element => {
     });
 });
 
+let arrow = document.querySelector(".to_top");
+let pt = 200;
+window.addEventListener("scroll", () => {
+    if (window.scrollY > pt) {
+        arrow.style.display = "block";
+    }
+    else {
+        arrow.style.display = "none";
+    }
+    arrow.addEventListener("click", () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+        })
+    });
 
+});
+
+let load = document.querySelector(".loading-screen");
+
+setInterval(() => {
+    load.classList.add("show");
+}, 2000)
