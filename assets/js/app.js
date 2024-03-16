@@ -4,8 +4,8 @@ $('.slick-slider').slick({
     speed: 300,
     slidesToShow: 3,
     slidesToScroll: 1,
-    prevArrow: ".prev",
-    nextArrow: ".next",
+    prevArrow: ".prev-btn",
+    nextArrow: ".next-btn",
     responsive: [
         {
             breakpoint: 1024,
@@ -27,7 +27,8 @@ $('.slick-slider').slick({
             breakpoint: 480,
             settings: {
                 slidesToShow: 1,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+              
             }
         }
         // You can unslick at a given breakpoint now by adding:
@@ -54,7 +55,7 @@ $('.slick-slider-1').slick({
             }
         },
         {
-            breakpoint: 600,
+            breakpoint: 700,
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1
@@ -109,13 +110,19 @@ let acc_part = document.querySelectorAll(".full-part");
 let one_part = document.querySelector(".click-part");
 let add_icon = document.querySelector(".add-click");
 let sub_icon = document.querySelector(".sub-click");
+let txt = document.querySelector(".hidden-txt")
 
+sub_icon.style.display = "block";
+txt.style.display = "block";
+add_icon.style.display = "none";
 
 acc_part.forEach(element => {
     let one_part = element.querySelector(".click-part");
     let add_icon = element.querySelector(".add-click");
     let sub_icon = element.querySelector(".sub-click");
     let txt = element.querySelector(".hidden-txt")
+
+
 
     one_part.addEventListener("click", () => {
         acc_part.forEach(other => {
