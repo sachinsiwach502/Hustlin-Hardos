@@ -21,13 +21,16 @@ $('.slick-slider').slick({
             settings: {
                 slidesToShow: 2,
                 slidesToScroll: 1
+
             }
         },
         {
-            breakpoint: 480,
+            breakpoint: 576,
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
+                autoplay: true,
+                autoplaySped: 1000
 
             }
         }
@@ -58,14 +61,18 @@ $('.slick-slider-1').slick({
             breakpoint: 700,
             settings: {
                 slidesToShow: 1,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySped: 1000
             }
         },
         {
-            breakpoint: 480,
+            breakpoint: 576,
             settings: {
                 slidesToShow: 1,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySped: 1000
             }
         }
         // You can unslick at a given breakpoint now by adding:
