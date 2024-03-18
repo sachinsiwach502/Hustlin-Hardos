@@ -60,7 +60,6 @@
 }
 
 * {
-
     list-style: none;
     text-decoration: none;
     -webkit-transition: all 200ms linear;
@@ -547,6 +546,7 @@ a {
     right: 0;
     bottom: 0;
     cursor: pointer;
+    display: none;
 }
 
 .to_top:hover {
