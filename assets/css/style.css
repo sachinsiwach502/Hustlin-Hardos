@@ -75,6 +75,8 @@
     background-size: cover;
 }
 
+
+
 a {
     list-style: none !important;
     text-decoration: none !important;
@@ -815,6 +817,10 @@ a {
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
         justify-content: space-between;
+    }
+
+    .txt {
+        font-size: var(--fs-60);
     }
 }
 

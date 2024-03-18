@@ -170,4 +170,10 @@ let load = document.querySelector(".loading-screen");
 
 setInterval(() => {
     load.classList.add("show");
-}, 2000)
+}, 3000)
+
+// gsap.from(".to_top", {
+//     y: 30,
+//     repeat: -1
+// })
+
