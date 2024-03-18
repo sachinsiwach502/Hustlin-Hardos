@@ -421,6 +421,11 @@ a {
 
 .read {
     text-decoration: underline;
+    display: inline;
+}
+
+::selection {
+    color: var(--red-color);
 }
 
 .gap-48 {
